@@ -437,6 +437,18 @@ form{
     form{
         margin: 0px;
     }
+    .fab {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 6px;
+    right: 10px;
+    border-radius: 50px;
+    font-size: 50px;
+    float: right;
+    transition: 1s;
+    margin-right: -15px;
+}
     
    
 }
