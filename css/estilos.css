@@ -3,7 +3,6 @@ body{
     color: white;
     font-family: "Barlow Condensed", Sans-serif;   
 }
-
 .nombre{
     color: white;
     font-family:"Barlow Condensed", Sans-serif;   
@@ -13,23 +12,18 @@ body{
     line-height: 1.3em;
     letter-spacing: 2px;
     float: right;
-    transition: 1s;
-  
+    transition: 1s; 
 }
-
 .nombre:hover{
     color: darkred;
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
 }
-
 .modal-content{
     background-image: url(../images/fondo.jpg);
     background-size: cover;
     width: 55rem;
 }
-
-
 .abrir-cerrar{
     color: white;
     font-family:"Barlow Condensed", Sans-serif;   
@@ -46,15 +40,10 @@ body{
     color: darkred;
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
-
 }
-
-
-
 #cerrar {
 display:none;
 }
-
 .sidebar {
     position: fixed;
     height: 100%;
@@ -69,8 +58,6 @@ display:none;
     padding: 1rem 0;
     box-sizing: border-box;
 }
-
-
 .sidebar .boton-cerrar {
     position: absolute;
     top: 0.5rem;
@@ -85,18 +72,15 @@ display:none;
     text-align: center;
    
 }
-
 .sidebar ul, .sidebar li{
     list-style:none inside;
 }
-
 .sidebar ul {
     display: block;
     width: 80%;
     min-width:200px;
     margin-top: 180px;
 }
-
 .sidebar a {
     display: block;
     font-size: 15px;
@@ -109,21 +93,16 @@ display:none;
     letter-spacing: 2px;
     
 }
-
 .sidebar a:hover{
     color: darkred;
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
-    
-
 }
-
 #contenido {
     transition: .4s;
     padding: 3rem;
     margin-top: 13rem;
 }
-
 .fab{
     position: fixed;
     width: 70px;
@@ -136,7 +115,6 @@ display:none;
     transition: 1s;
     margin-right: -15px;
 }
-
 .fab:hover{
     color: darkred;
     text-shadow: 0 0 9px rgb(70, 66, 66);
@@ -166,7 +144,6 @@ display:none;
     text-transform: uppercase;
     line-height: 1.3em;
     letter-spacing: 2px;
-   
 }
 .tittle-about{
     font-size: 13px;
@@ -178,7 +155,6 @@ display:none;
     line-height: 1.6em;
     letter-spacing: 2px;
 }
-
 .text-about{
     color: #fff;
     font-size: 10px;
@@ -190,7 +166,6 @@ display:none;
     text-align: center;
     display: none;
 }
-
 #cert{
     color: #fff;
     font-size: 10px;
@@ -200,9 +175,12 @@ display:none;
      line-height: 1.6em;
     letter-spacing: 2px;
     text-align: center;
-   
 }
-
+#cert:hover{
+    color: darkred;
+    text-shadow: 0 0 9px rgb(70, 66, 66);
+    text-decoration: none;
+}
 #certjs{
     color: #fff;
     font-size: 10px;
@@ -213,24 +191,16 @@ display:none;
     letter-spacing: 2px;
     text-align: center;
 }
-
-
 #certjs:hover{
      color: darkred;
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
 }
    
-#cert:hover{
-    color: darkred;
-    text-shadow: 0 0 9px rgb(70, 66, 66);
-    text-decoration: none;
-}
 
 .card-img-top{
     border: solid 2px #fff;;
 }
-
 .card-title{
     font-size: 13px;
     color: #fff;
@@ -248,16 +218,14 @@ display:none;
     font-family:"Barlow Condensed", Sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-     line-height: 1.6em;
+    line-height: 1.6em;
     letter-spacing: 2px;
     text-align: center;
-    
 }
 .card{
     background-image: url(../images/fondo.jpg);
     background-size: cover;
 }
-
 .btn{
     background-image: url(images/fondo.jpg);
     background-size: cover;
@@ -270,8 +238,7 @@ display:none;
      line-height: 1.6em;
     letter-spacing: 2px;
     transition: 1s;
-    }
-
+}
 .btn:hover{
     color: darkred;
     text-shadow: 0 0 9px rgb(70, 66, 66);
@@ -283,11 +250,9 @@ display:none;
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
 }
-
 .icon{
     color:#fff;
 }
-
 form{
     width: 450px;
     margin: auto;
@@ -311,7 +276,6 @@ form{
 #mensaje{
     height: 200px;
 }
-
 .btn-enviar{
     color: grey;
     background-color: transparent;
@@ -319,7 +283,6 @@ form{
     border-radius: 10px;
     margin-left: 170px;
 }
-
 .btn-enviar:hover{
     color: grey;
     background-color: transparent;
@@ -331,33 +294,27 @@ form{
     background-color: transparent;
     border: solid 2px darkred;
     border-radius: 10px; 
-  } 
-
-
+} 
 .btn:active { 
     color: grey;
     background-color: transparent;
     border: solid 2px darkred;
     border-radius: 10px; 
-  } 
-
+} 
 .modal-dialog {
     max-width: auto;
     margin-left: 180px;
     margin-top: 80px;
 }
-
 @media(max-width:575.98px) {
     .nombre{
         font-size: 13px;
         margin-top: 5px;
-    }
-    
-    #contenido{
+}
+#contenido{
        margin-top: 8rem;
-   }
-
-    .modal {
+}
+.modal {
         position: fixed;
         top: 0;
         left: 0;
@@ -368,21 +325,18 @@ form{
         overflow: hidden;
         outline: 0;
         margin-left: 16px;
-    }
-
+}
     .card-img-top {
         border: solid 2px #fff;
         width: 40%;
         margin-left: -13px;
-    }
-
-    .modal-dialog {
+}
+.modal-dialog {
         max-width: auto;
         margin-left: 15px;
         margin-top: 40px;
-    }
-
-    .nextmodal-title {
+}
+.nextmodal-title {
         margin-left: 80px;
         font-size: 15px;
         color: #fff;
@@ -393,8 +347,7 @@ form{
         line-height: 1.3em;
         letter-spacing: 2px;
     }
-
-    .modal-title {
+.modal-title {
         margin-left: 125px;
         font-size: 15px;
         color: #fff;
@@ -403,14 +356,12 @@ form{
         font-weight: 400;
         text-transform: uppercase;
         line-height: 1.3em;
-    }
-
-    .modal-header .close {
+}
+.modal-header .close {
         padding: 1rem 1rem;
         margin: -1.4rem 70rem -1rem 2rem;
-    }
-
-    .modal-header .closebtn {
+}
+.modal-header .closebtn {
             padding: 1rem 1rem;
             margin: -1.3rem 700rem -1rem 5rem;
             float: right;
@@ -420,42 +371,35 @@ form{
             color: #000;
             text-shadow: 0 1px 0 #fff;
             opacity: .5;
-        }
-
-    button.closebtn {
+}
+button.closebtn {
         padding: 0;
         background-color: transparent;
         border: 0;
-    }
-    .card-body {
+}
+.card-body {
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         min-height: 1px;
         padding: 1.25rem;
         width: 40%;
-    }
-
-    .card-title{
+}
+.card-title{
         margin-left: -25px;
-    }
-
-    .card-text {
-       
+}
+.card-text {
         margin-left: -40px;
-    }
-
-    .btn{
+}
+.btn{
         margin-left: 90px;
-    }
-
-    input, textarea {
+}
+input, textarea {
         width: 75%;
-    }
-
-    form{
+}
+form{
         margin: 0px;
-    }
-    .fab {
+}
+.fab {
     position: fixed;
     width: 70px;
     height: 70px;
@@ -467,8 +411,6 @@ form{
     transition: 1s;
     margin-right: -15px;
 }
-    
-   
 }
 
 
