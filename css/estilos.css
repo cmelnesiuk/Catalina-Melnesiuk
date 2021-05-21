@@ -14,6 +14,7 @@ body{
     letter-spacing: 2px;
     float: right;
     transition: 1s;
+  
 }
 
 .nombre:hover{
@@ -322,11 +323,116 @@ form{
     border-radius: 10px; 
   } 
 
-@media (min-width: 576px){
 .modal-dialog {
     max-width: auto;
     margin-left: 180px;
     margin-top: 80px;
 }
 
+@media(max-width:575.98px) {
+    .nombre{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+        outline: 0;
+        margin-left: 16px;
+    }
+
+    .card-img-top {
+        border: solid 2px #fff;
+        width: 40%;
+        margin-left: -13px;
+    }
+
+    .modal-dialog {
+        max-width: auto;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    .nextmodal-title {
+        margin-left: 80px;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+        font-family: "Barlow Condensed", Sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1.3em;
+        letter-spacing: 2px;
+    }
+
+    .modal-title {
+        margin-left: 125px;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+        font-family: "Barlow Condensed", Sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1.3em;
+    }
+
+    .modal-header .close {
+        padding: 1rem 1rem;
+        margin: -1.4rem 70rem -1rem 2rem;
+    }
+
+    .modal-header .closebtn {
+            padding: 1rem 1rem;
+            margin: -1.3rem 700rem -1rem 5rem;
+            float: right;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1;
+            color: #000;
+            text-shadow: 0 1px 0 #fff;
+            opacity: .5;
+        }
+
+    button.closebtn {
+        padding: 0;
+        background-color: transparent;
+        border: 0;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        width: 40%;
+    }
+
+    .card-title{
+        margin-left: -25px;
+    }
+
+    .card-text {
+       
+        margin-left: -40px;
+    }
+
+    .btn{
+        margin-left: 90px;
+    }
+
+    input, textarea {
+        width: 75%;
+    }
+
+    form{
+        margin: 0px;
+    }
 }
+
+
