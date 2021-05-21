@@ -18,28 +18,13 @@
 <body>
     
  
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid px-4 pt-1">
-          <a class="navbar-brand ml-5" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mt-2" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">catalina melnesiuk</a>
-              </li>
-                <!--
-              <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </nav>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-12">
+         <a href="" target="_blank" class="nombre mt-3 mr-3">catalina melnesiuk</a>
+       </div>
+     </div>
+   </div>
       
 
 
@@ -48,7 +33,14 @@
         <ul class="menu">
         <li><a class="item pb-4" href="#" onclick="ocultar()">Inicio/Home</a></li>
         <li><a id="about" href="#" class="item pb-4"  >Sobre mi/About me</a>
-          <p class="text-about mx-auto" style="display: none;"> Nací el 20 de Marzo de 1995 en Berisso, Buenos Aires Argentina. Estudié diseño web en la UTN-FRLP, Javascript en <a href="https://www.coderhouse.com/" target="_blank">Coderhouse</a> y actuamente estoy aprendiendo ReactJs. Me interesa mucho el mundo del desarrollo web y seguir ayornandome en el tema.  <a href="C:\Users\Usuario\Downloads\606b0b30914326009c8dec35.png" class="btn-sm" target="_blank" >Ver certificados</a></p>
+          <p class="text-about mx-auto"> Nombre: Catalina </p>
+          <p class="text-about mx-auto"> Apellido: Melnesiuk </p>
+          <p class="text-about mx-auto"> Fecha de nacimiento: 20/03/1995 </p>
+          <p class="text-about mx-auto"> Nacionalidad: Argentina </p>
+          <p class="text-about mx-auto"> Lenuajes: HTML5 - CSS3 - JavaScript</p>
+          <p class="text-about mx-auto"> Certificados: <a id="cert" href="https://www.coderhouse.com/certificados/606b0b30914326009c8dec35" target="_blank">JavaScript-coderhouse</a> </p>
+         
+
        
 
         <li><a  class="item pb-4" href="#" data-toggle="modal" data-target="#NextexampleModal">Proyectos/Proyects</a></li>
@@ -56,7 +48,7 @@
   <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#NextexampleModal">
     Launch demo modal
   </button> -->
-        <li><a  class="item pb-4" href="#"  data-toggle="modal" data-target="#LastexampleModal">Contacto/Contact</a></li>
+        <li><a  class="item" href="#"  data-toggle="modal" data-target="#LastexampleModal">Contacto/Contact</a></li>
                    <!-- Button trigger modal -->
   <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LastexampleModal">
     Launch demo modal
@@ -78,25 +70,7 @@
     </div>
     
 
-
-<!-- Modal 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title">Sobre mí/About me</h2>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
-  <!-- NextModal -->
+  <!-- Modal -->
   <div class="modal fade" id="NextexampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -143,7 +117,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h2 class="mx-auto">Contacto</h2>
+          <h2 class="modal-title">Contacto</h2>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -154,14 +128,15 @@
              <input type="text" id="correo" name="correo" placeholder="Correo electrónico">
              <input type="text" id="asunto" name="asunto" placeholder="Asunto">
              <textarea type="text" id="mensaje" name="Mensaje" placeholder="Mensaje"></textarea>
+             <button type="button" class="btn-enviar btn" id="btn1">Enviar</button>
           </form>
          </div>
       </div>
     </div>
   </div>
   
-  <a  href="#" class="icon"><i class="fab fa-github mr-5"></i> </a>
-  <a  href="#" class="icon"><i class="fab fa-linkedin-in ml-3"></i></a>
+  <a  href="https://github.com/cmelnesiuk" class="icon" target="_blank"><i class="fab fa-github"></i> </a>
+
 
 
 <!-- jQuery, Popper  y Bootstrap JS. -->
