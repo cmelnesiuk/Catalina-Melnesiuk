@@ -334,6 +334,10 @@ form{
         font-size: 13px;
         margin-top: 5px;
     }
+    
+    #contenido{
+       margin-top: 10rem;
+   }
 
     .modal {
         position: fixed;
@@ -434,9 +438,7 @@ form{
         margin: 0px;
     }
     
-    .abrir-cerrar{
-        margin-top: 200px;
-    }
+   
 }
 
 
