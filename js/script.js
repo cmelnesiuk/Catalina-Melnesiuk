@@ -1,18 +1,16 @@
-
-
 var i, text;
 i=0;
 text= "Desarrollo Front End";
 
-function typing(){
+function tipeo(){
     if(i<text.length){
         document.getElementById("abrir").innerHTML += text.charAt(i);
         i++;
-        setTimeout(typing,70); 
+        setTimeout(tipeo,70); 
     }
 }
 
-typing();
+tipeo();
 
 
 
