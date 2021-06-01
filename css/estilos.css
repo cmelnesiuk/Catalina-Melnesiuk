@@ -104,6 +104,11 @@ body{
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
 }
+
+.profile-foto{
+    width: 50%;
+    border-radius: 50px;
+}
 #contenido {
     transition: .4s;
     padding: 3rem;
@@ -301,6 +306,8 @@ input, textarea {
         border-radius: 10px;
         color: white;
 }
+
+
 #mensaje{
     height: 200px;
 }
