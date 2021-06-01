@@ -8,7 +8,7 @@ function typing(){
     if(i<text.length){
         document.getElementById("abrir").innerHTML += text.charAt(i);
         i++;
-        setTimeout(tipeo,70); 
+        setTimeout(typing,70); 
     }
 }
 
