@@ -440,6 +440,7 @@ button.closebtn {
 }
 input, textarea {
         width: 75%;
+    color: white;
 }
 form{
         margin: 0px;
