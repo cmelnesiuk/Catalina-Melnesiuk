@@ -1,4 +1,22 @@
 
+
+var i, text;
+i=0;
+text= "Desarrollo Front End";
+
+function typing(){
+    if(i<text.length){
+        document.getElementById("abrir").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(tipeo,70); 
+    }
+}
+
+typing();
+
+
+
+
 function mostrar() {
     document.getElementById("sidebar").style.width = "300px";
     document.getElementById("contenido").style.marginLeft = "300px";
