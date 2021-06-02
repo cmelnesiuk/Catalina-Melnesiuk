@@ -1,6 +1,6 @@
 var i, text;
 i=0;
-text= "Desarrollo Front End";
+text= "Frontend Developer";
 
 function tipeo(){
     if(i<text.length){
