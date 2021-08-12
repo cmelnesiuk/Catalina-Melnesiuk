@@ -252,9 +252,13 @@ display:none;
 
 
 .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
     padding: 1.25rem;
     text-align: center;
 }
+
 .card-title{
     font-size: 13px;
     color: #fff;
@@ -358,6 +362,9 @@ input, textarea {
 }
 
 .modal-backdrop.show {
+     opacity: 0; 
+}
+.modal-backdrop.fade {
      opacity: 0; 
 }
 @-moz-keyframes parpadeo{  
@@ -503,11 +510,11 @@ button.closebtn {
         border: 0;
 }
 .card-body {
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        min-height: 1px;
-        padding: 1.25rem;
-        width: 40%;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    text-align: center;
 }
 .card-title{
         margin-left: -25px;
