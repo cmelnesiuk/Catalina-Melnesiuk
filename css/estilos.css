@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/fondo.jpg);
+    background-image: url('../images/fondo.jpg');
     color: white;
     font-family: "Barlow Condensed", Sans-serif;   
 }
@@ -33,7 +33,7 @@ body{
     text-decoration: none;
  }
   
-  .parpadea {
+.parpadea {
     animation-name: parpadeo;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -249,8 +249,11 @@ display:none;
     text-shadow: 0 0 9px rgb(70, 66, 66);
     text-decoration: none;
 }
-.card-img-top{
-    border: solid 2px #fff;;
+
+
+.card-body {
+    padding: 1.25rem;
+    text-align: center;
 }
 .card-title{
     font-size: 13px;
@@ -279,30 +282,17 @@ display:none;
     background-size: cover;
 }
 
-.btn{
-    background-image: url(images/fondo.jpg);
-    background-size: cover;
-    margin-left: 135px;
+.site{
+    background-color: transparent;
     color: white;
-    font-size: 10px;
-    font-family:"Barlow Condensed", Sans-serif;
-    font-weight: 400;
+    border-radius: 5px;
     text-transform: uppercase;
-     line-height: 1.6em;
+    font-family:"Barlow Condensed", Sans-serif;
+    line-height: 1.6em;
     letter-spacing: 2px;
-    transition: 1s;
+    font-size: 9px;
 }
-.btn:hover{
-    color: darkred;
-    text-shadow: 0 0 9px rgb(70, 66, 66);
-    text-decoration: none;
-    transform:scale(1.3);
-}
-.close:hover{
-    color: darkred;
-    text-shadow: 0 0 9px rgb(70, 66, 66);
-    text-decoration: none;
-}
+
 .icon{
     color:#fff;
 }
@@ -359,8 +349,16 @@ input, textarea {
     border-radius: 10px; 
 } 
 .modal-dialog {
-    margin-left: 180px;
-    margin-top: 80px;
+    margin: 80px 215px;
+     margin-top: 80px;
+}
+
+.modal-backdrop {
+     position: unset;
+}
+
+.modal-backdrop.show {
+     opacity: 0; 
 }
 @-moz-keyframes parpadeo{  
     0% { opacity: 1.0; }
