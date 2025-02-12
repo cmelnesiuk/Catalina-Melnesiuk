@@ -467,17 +467,18 @@ input, textarea {
         outline: 0;
         margin-left: 16px;
 }
+
 .card-img-top {
-        border: solid 2px #fff;
-        width: 40%;
-        margin-left: -13px;
+    border: solid 2px #fff;
+    width: 70%;
 }
+
 .modal-dialog {
         margin-left: 15px;
         margin-top: 40px;
 }
 .nextmodal-title {
-        margin-left: 80px;
+        margin-left: 70px;
         font-size: 15px;
         color: #fff;
         text-decoration: none;
@@ -523,12 +524,16 @@ button.closebtn {
     min-height: 1px;
     padding: 1.25rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
 .card-title{
-        margin-left: -25px;
+        margin-left: -100px;
     }
 .card-text {
         margin-left: -40px;
+        visibility: hidden;
 }
 .btn{
         margin-left: 90px;
@@ -540,6 +545,19 @@ input, textarea {
 form{
         margin: 0px;
 }
+.vermas {
+    margin-top: -40px;
+    margin-left: -100px;
 }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 300px){
+    .modal-content {
+        background-image: url(../images/fondo.jpg);
+        background-size: cover;
+        width: 30rem;
+        display: flex;
+    } 
+ }
 
 
