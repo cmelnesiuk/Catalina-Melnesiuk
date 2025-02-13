@@ -203,17 +203,19 @@ display:none;
     letter-spacing: 2px;
    
 }
-.tittle-about{
-    font-size: 13px;
+
+.text-about{
     color: #fff;
-    text-decoration: none;
-    font-family:"Barlow Condensed", Sans-serif; 
+    font-size: 10px;
+    font-family:"Barlow Condensed", Sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    line-height: 1.6em;
+     line-height: 1.6em;
     letter-spacing: 2px;
+    text-align: center;
+    display: none;
 }
-.text-about{
+.text-contact{
     color: #fff;
     font-size: 10px;
     font-family:"Barlow Condensed", Sans-serif;
@@ -518,6 +520,10 @@ button.closebtn {
         background-color: transparent;
         border: 0;
 }
+.card{ 
+    margin-left: -20px;
+}
+
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -526,6 +532,7 @@ button.closebtn {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-left: -20px;
 }
 
 .card-title{
