@@ -39,6 +39,11 @@ $(document).ready(function(){
         $(".text-about").slideToggle();
     });
 });
+$(document).ready(function(){
+    $("#contact").click(function(){
+        $(".text-contact").slideToggle();
+    });
+});
 
 function enviar(){
     
